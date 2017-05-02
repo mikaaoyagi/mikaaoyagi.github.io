@@ -1,6 +1,4 @@
-/*==========
-setteing
-==========*/
+/*▼setteing▼*/
 *{
 	margin: 0;
 	padding: 0;
@@ -15,7 +13,6 @@ a{
 	text-decoration: none;
 }
 
-
 .clearfix::after{
 	content: "";
 	display: block;
@@ -28,11 +25,7 @@ a{
 	font-family: serif;
 }
 
-
-/*===========================================
-header
-===========================================*/
-
+/*▼header▼*/
 header{
 	position: fixed;
 	width: 100%;
@@ -41,7 +34,6 @@ header{
 	z-index: 10000;
 }
 
-
 h1{
 	width: 150px;
 	line-height: 100px;
@@ -49,33 +41,25 @@ h1{
 	font-size: 3rem;
 	margin-top: 0;
 	margin-bottom: 0;
-
+	z-index: 10000;
 }
 
-
-
-/*=========================================
-mainvisual
-==========================================*/
-
-#mv{
-	/*background-image: url(../img/pic.jpg);*/
+h1 a{
+	color: black;
+}
+/*▲header▲*/
+/*▼mainvisual▼*/
+.mv{
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
-    padding-top: 100px;
-
+    padding-top: 100px;    
 }
-
-
-
-/*=============================================
-ハンバーガーメニュー
-============================================*/
+/*▲mainvisual▲*/
+/*▼ハンバーガーメニュー▼*/
 .menu-box{
 	display: none;
-	/*display: block;*/
 	float: right;
 	width: 40px;
 	height: 40px;
@@ -83,28 +67,21 @@ mainvisual
 	border: 1px solid white;
 	background-color: black;
 	margin-top: 5px;
-	/*margin-bottom: 10px;*/
-
 }
-
 
 .list-bar{
 	display: block;
-	width: 25px;
+	width: 20px;
 	height: 2px;
 	margin: 5px auto;
 	background-color: white;
 }
 
-
 .list-bar:first-child{
 	margin-top: 10px;
 }
-
-/*=======================
-ハンバーガーメニュー終わり
-=======================*/
-
+/*▲ハンバーガーメニュー▲*/
+/*▼naviリスト▼*/
 .nav{
 	float: right;
 }
@@ -113,11 +90,9 @@ mainvisual
 	float: left;
 	width: 150px;
 	line-height: 100px;
-	/*color: #FAFAFA;*/
 	text-align: center;
 	list-style: none;
 	font-size: 1.6rem;
-
 }
 
 .nav-list a{
@@ -126,48 +101,13 @@ mainvisual
 
 .nav-list a:hover{
 	background-color: gray;
-
 }
-
-/*.nav{
-	margin-top: 0;
-	margin-bottom: 0;
-}*/
-
-
-/*.nav-list{
-	color: black;*/
-/*}*/
-
-
-	/*color: black;*/
-
-	/*color: black;*/
-
-
-
-
-/*.nav-list:hover{
-	background-color: gray;
-
-}*/
-
-
-
-
-
-
-
-
-
-/*======================================
-HOUSING INF
-=======================================*/
+/*▲naviリスト▲*/
+/*▼HOUSING INF▼*/
 .home-housing-title{
 	width: 100%;
     height: auto;
     margin-top: 100px;
-
 }
 
 .home-housing-title h2 span:first-child{
@@ -175,17 +115,12 @@ HOUSING INF
 	letter-spacing: .25em;
     margin-right: 15px;
     width: 100px;
-
 }
-
 
 .home-housing-title h2 span{
 	display: inline-block;
 	width: 100px;
 }
-
-
-
 
 .card-group{
 	width: 90%;
@@ -198,17 +133,13 @@ HOUSING INF
 	width: 50%;
 	margin: 0 auto;
 	padding: 0 10px;
-	/*margin-left: 10px;
-	margin-right: 10px;*/
 }
-
 
 .card2{
 	position: relative;
 	float: left;
 	width: 50%;
 	margin: 0 auto;
-	/*margin-left: 50px;*/
 	margin-top: 50px;
 	padding: 0 10px;
 }
@@ -221,7 +152,13 @@ HOUSING INF
 	margin: 0 auto;
 }
 
-h3{
+.card-A{
+	font-size: 1.4rem;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+
+.card-B{
 	font-size: 1.4rem;
 	padding-bottom: 10px;
 }
@@ -230,7 +167,6 @@ h3{
 	width: 90%;
 	height: 200px;
 	background-color: white;
-	/*padding-bottom: 50px;*/
 	margin: 0 auto 50px;
 }
 
@@ -245,16 +181,13 @@ li{
 	font-size: 1.2rem;
 }
 
-
 .pic1{
     background-image: url(../img/pic1.jpg);
 }
 
-
 .pic2{
 	background-image: url(../img/pic2.jpg);
 }
-
 
 .pic3{
 	background-image: url(../img/pic3.jpg);
@@ -263,7 +196,6 @@ li{
 .pic4{
 	background-image: url(../img/pic4.jpg);
 }
-
 
 .pic5{
 	background-image: url(../img/pic5.jpg)
@@ -292,9 +224,7 @@ li{
 	text-align: center;
 	color: white;
 	background-color: black;
-
 }
-
 
 .comming-soon{
 	position: absolute;
@@ -307,23 +237,16 @@ li{
 	text-align: center;
 	color: white;
 	background-color: #b8b8b8;
-
 }
-
-/*===============================
-jurnal
-===============================*/
-
+/*▲HOUSING INF▲*/
+/*▼jurnal▼*/
 .jurnal{
 	width: 100%;
     height: 250px;
     background-color: #b8b8b8;
     text-align: center;
-    font-family: serif;
-
-   
+    font-family: serif;  
 }
-
 
 .jl-title{
 	display: block;
@@ -332,7 +255,6 @@ jurnal
 	padding-top: 50px;
 	font-size: 1.4rem;
 	text-align: center;
-
 }
 
 .jl-title2{
@@ -342,24 +264,12 @@ jurnal
 	text-align: center;
 }
 
-
-
-
-
-
 .jl1{
    position: relative;
    float: left;
    width: 25%;
-   /*margin-left: 30px;
-   margin-right: 10px;*/
-   /*margin: 0 auto;*/
    height: 250px;
-   /*margin-top: 50px;*/
-   }
-
-
-
+ }
 
 .jl-img{
 	width: 90%;
@@ -369,16 +279,13 @@ jurnal
 	background-position: center;
 }
 
-
 .jl-text{
 	width: 90%;
 	height: 50px;
 	background-color: white;
 	padding-top: 10px;
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 }
-
 
 .news{
 	position: absolute;
@@ -391,17 +298,12 @@ jurnal
 	text-align: center;
 	color: white;
 	background-color: #707070;
-
 }
-
 
 .jl2{
    position: relative;
    float: left;
    width: 25%;
-   /*margin-left: 30px;
-   margin-right: 10px;*/
-   /*margin: 0 auto;*/
    height: 250px;
    margin-top: 50px;
    }
@@ -410,13 +312,9 @@ jurnal
    position: relative;
    float: left;
    width: 25%;
-   /*margin-left: 30px;
-   margin-right: 10px;*/
-   /*margin: 0 auto;*/
    height: 250px;
    margin-top: 40px;
    }
-
 
 p{
 	font-size: 1.2rem;
@@ -427,6 +325,53 @@ h6{
 	font-size: 1.1rem;
 	line-height: 20px;
 }
+/*▲jurnal▲*/
+/*▼contact form▼*/
+.contact-form{
+	padding-top: 100px;
+	width: 100%;
+    height: 250px;
+    background-color: #b8b8b8;
+    text-align: center;
+    font-family: serif;
+}
+
+.mail-title{
+	padding-bottom: 15px;
+	padding-top: 40px;
+	font-size: 1.4rem;
+}
+
+.section-title{
+	margin-bottom: 30px;
+	font-size: 1.8rem;
+}
+
+.c-group{
+   width: 100%;
+   height: 250px;
+   margin-top: 50px;
+   text-align: center;
+ }
+
+.mail{
+	padding-top: 10px;
+}
+
+input,textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #b8b8b8;
+  color: black;
+}
+/*▲contact form▲*/
 
 #pageTop {
   position: fixed;
@@ -437,7 +382,6 @@ h6{
 #pageTop a {
   display: block;
   z-index: 999;
-  /*padding: 8px 0 0 8px;*/
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 30px;
@@ -454,25 +398,18 @@ h6{
   text-decoration: none;
   opacity: 0.7;
 }
-
-/*==========================================
-footer
-==========================================*/
-
+/*▼footer▼*/
 .footer-group{
 	background-color: black;
 	width: 100%;
     margin-top: 300px;
-
 }
-
 
 .footer{
 	float: left;
 	width: 20%;
 	margin-left: 20px;
 	margin-right: 20px;
-
 }
 
 .ft-h2{
@@ -480,21 +417,18 @@ footer
 	font-size: 2.2rem;
 	padding-left: 20px;
 	color: white;
-	text-align: center	;
+	text-align: center;
 	width: 100%;
 }
-
-
 
 .ft-text{
 	width: 100%;
 	height: 250px;
 	color: white;
 	line-height: 30px;
-	text-align: center	;
+	text-align: center;
 }
 	
-
 .ft-text2{
 	width: 100%;
 	height: 250px;
@@ -503,493 +437,34 @@ footer
 	text-align: center;
 }
 
+.ft-text3{
+	width: 100%;
+	height: 250px;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+}
+
+.ft-h2 a{
+	color: white;
+}
+
+.ft-list a{
+	color: white;
+}
 
 h4{
 	padding-top: 20px;
 	font-size: 1.4rem;
-
 }
 
-/*.ft-h2{
-	margin-top: 20px;
-	font-size: 	1.8rem;
+h5{
+	padding-top: 10px;
+	font-size: 1.2rem;
+	padding-bottom: 30px;
 }
-*/
 
 .fa-twitter-square{
 	padding-right: 10px;
 }
-
-
-
-
-
-
-/*====================================
-Media Queries
-====================================
-*/
-
-@media(max-width: 767px){
-
-
-
-/*======================
-setting
-======================*/
-
-.container{
-	width: 90%;
-	/*margin: 0 auto;*/
-}
-
-
-.sp-none{
-	display: none;
-}
-
-
-
-/*=======================
-header
-=======================*/
-
-.hd{
-
-	height: 70px;
-	/*width: 90%;*/
-}
-
-
-header{
-	height: 50px;
-}
-
-h1{
-	line-height: 70px;
-	/*float: none;*/
-}
-
-
-
-.menu-box{
-	display: block;
-	margin: 5%;
-
-}
-
-
-
-
-
-
-.nav{
-	float: none;
-}
-
-
-.nav-list{
-	display: none;
-	/*float: none;*/
-	width: 100%;
-	line-height: 50px;
-	border-top: 1px solid black;
-	text-align: center;
-	background-color: white;
-}
-
-
-/*.nav-list a{
-	text-align: center;
-}*/
-/*==================================
-mainvisual
-==================================*/
-/*.theTarget{
-	display: none;
-}*/
-
-#mv{
-	padding-top: 70px;
-	height: 60vh;
-	
-}
-
-
-.home-housing-title{
-	margin-top: 100px;
-	margin-bottom: 	30px;
-}
-
-
-
-
-.card-group{
-	width: 90%;
-}
-
-
-.card-img{
-	width: 100%;
-	height: 200px;
-
-}
-
-
-.card{
-	float: none;
-	width: 100%;
-	
-}
-
-
-.card-text{
-	height: 100px;
-}
-
-.card2{
-	float: none;
-	width: 100%;
-	display: none;
-	
-}
-
-
-.for-sale{
-	width: 80px;
-	height: 40px;
-	line-height: 40px;
-	font-size: 	0.8rem;
-
-}
-
-.comming-soon{
-	width: 80px;
-	height: 40px;
-	line-height: 40px;
-	left: 80px;
-	font-size:  0.8rem;
-
-}
-
-.jurnal{
-	width: 100%;
-	height: 200px;
-}
-
-.jl-title{
-	padding-top: 20px;
-
-}
-
-
-.jl1{
-	/*float: none;*/
-	width: 	50%;
-}
-
-
-.jl2{
-	float: none;
-	display: none;
-}
-
-.jl3{
-	float: none;
-	display: none;
-}
-
-.footer-group{
-	margin-top: 240px;
-}
-
-.footer{
-	width: 	90%;
-
-}
-
-.ft-h2{
-	padding-left: 0;
-	padding-bottom: 10px;
-}
-
-
-
-
-.ft-text{
-	text-align: center;
-	/*width: 	100%;*/
-	/*height: 200px*/
-
-}
-
-
-.ft-text2{
-	display: none;
-}
-
-.fa-facebook-square{
-	display: none;	
-}
-
-.fa-twitter-square{
-	display: none;
-}
-
-
-/*h3{
-	width: 90%;
-	height: 150px;
-	line-height: 60px;
-	color: black;
-
-}
-
-
-h4{
-	width: 90%;
-	height: 100px;
-	line-height: 50px;
-	color: black;
-}*/
-
-/*.pic1 {
-	background-image: url(../img/pic1.jpg);
-	height: 100vh;
-	background-size: cover;
-
-}
-
-.header-logo{
-	padding-top: 70px;
-	padding: 20px;
-	float: left;
-	font-weight: bold;
-	font-size: 25px;
-}
-
-
-li {
-	list-style: none;
-	float: left;
-	padding-left: 20px;
-}
-
-
-h2{
-	padding-top: 100px;
-	padding-left: 20px;
-	padding-bottom: 50px;
-
-}
-*/
-
-
-
-
-/*.btn-wrapper {
-	
-	padding-right: 100px;
-	padding-top: 50px;
-	font-size: 15px;
-	color: black;
-	
-
-}
-
-
-.btn-concept:hover{
-	background-color: gray
-
-}
-
-.btn-housinginf:hover{
-	background-color: gray
-
-}
-
-.btn-showroom:hover{
-	background-color: gray
-}
-
-.btn-aboutus:hover{
-	background-color: gray
-}
-*/
-
-
-/*.bigbox1{
-	height: 800px;
-	width: 50%;
-	float: left;
-	text-align: left;
-	padding-left: 20;
-}
-
-
-.one{
-	background-image: url(../img/pic2.jpg);
-	height: 300px;
-	width: 80%;
-	background-size: cover;
-	margin: 20px;
-}
-
-
-h4{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 14px;	
-}
-
-
-.list{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 12px;
-	line-height: 25px;	
-	display: block;
-}
-
-
-li{
-	list-style: none;
-
-}
-
-
-.bigbox2{
-	height: 800px;
-	width: 50%;
-	float: left;
-	text-align: left;
-	padding-left: 20px;
-}
-
-.two{
-	background-image: url(../img/pic3.jpg);
-	height: 300px;
-	width: 80%;
-	background-size: cover;
-	margin: 50px 20px 20px 20px;
-}
-
-
-.p2{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 14px;	
-}
-
-
-ul{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 12px;
-	line-height: 25px;	
-}
-
-
-li{
-	list-style: none;
-
-}
-
-
-
-
-
-.bigbox3{
-	height: 800px;
-	width: 50%;
-	float: left;
-	text-align: left;
-	padding-left: 20px;
-}
-
-.three{
-	background-image: url(../img/pic4.jpg);
-	height: 300px;
-	width: 80%;
-	background-size: cover;
-	margin: 20px;
-}
-
-
-.p3{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 14px;	
-}
-
-
-ul{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 12px;
-	line-height: 25px;	
-}
-
-
-li{
-	list-style: none;
-
-}
-
-
-.bigbox4{
-	height: 800px;
-	width: 50%;
-	float: left;
-	text-align: left;
-	padding-left: 20px;
-}
-
-.four{
-	background-image: url(../img/pic5.jpg);
-	height: 300px;
-	width: 80%;
-	background-size: cover;
-	margin: 50px 20px 20px 20px;
-}
-
-
-.p4{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 14px;	
-}
-
-
-ul{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 12px;
-	line-height: 25px;	
-}
-
-
-li{
-	list-style: none;
-
-}
-
-*/
-
-/*.footer{
-	background-color: black;
-	color: white;
-}
-
-.footer-list{
-	float: right;
-
-}
+/*▲footer▲*/
