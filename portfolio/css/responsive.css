@@ -1,302 +1,150 @@
-/*==========
-setteing
-==========*/
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+/*▼Media Queries 767px▼*/
+@media(max-width: 767px){
 
-html{
-	font-size: 62.5%;
-}
-
-
-.clearfix::after{
-	content: "";
-	display: black;
-	clear: both;
-}
-
+/*▼setting▼*/
 .container{
-	width: 1024px;
-	margin: 0 auto;
-	font-family: serif;
+	width: 90%;	
 }
 
-
-/*=========================================
-mainvisual
-==========================================*/
-
-#mv{
-	background-image: url(../img/pic1.jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+.sp-none{
+	display: none;
 }
 
-
-/*===========================================
-header
-===========================================*/
-
+/*▼header▼*/
 header{
-	position: fixed;
-	width: 100%;
-	height: 100px;
-	background-color: #EC715F; 
+	height: 70px;
+	z-index: 10000;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*.pic1 {
-	background-image: url(../img/pic1.jpg);
-	height: 100vh;
-	background-size: cover;
-
+h1{
+	line-height: 70px;	
 }
 
-.header-logo{
-	padding-top: 70px;
-	padding: 20px;
-	float: left;
-	font-weight: bold;
-	font-size: 25px;
-}
-
-
-li {
-	list-style: none;
-	float: left;
-	padding-left: 20px;
-}
-
-
-h2{
-	padding-top: 100px;
-	padding-left: 20px;
-	padding-bottom: 50px;
-
-}
-*/
-
-
-
-
-/*.btn-wrapper {
-	
-	padding-right: 100px;
-	padding-top: 50px;
-	font-size: 15px;
-	color: black;
-	
-
-}
-
-
-.btn-concept:hover{
-	background-color: gray
-
-}
-
-.btn-housinginf:hover{
-	background-color: gray
-
-}
-
-.btn-showroom:hover{
-	background-color: gray
-}
-
-.btn-aboutus:hover{
-	background-color: gray
-}
-*/
-
-
-/*.bigbox1{
-	height: 800px;
-	width: 50%;
-	float: left;
-	text-align: left;
-	padding-left: 20;
-}
-
-
-.one{
-	background-image: url(../img/pic2.jpg);
-	height: 300px;
-	width: 80%;
-	background-size: cover;
-	margin: 20px;
-}
-
-
-h4{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 14px;	
-}
-
-
-.list{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 12px;
-	line-height: 25px;	
+.menu-box{
 	display: block;
+	margin: 4%;
 }
 
-
-li{
-	list-style: none;
-
+.nav{
+	float: none;
 }
 
-
-.bigbox2{
-	height: 800px;
-	width: 50%;
-	float: left;
-	text-align: left;
-	padding-left: 20px;
+.nav-list{
+	display: none;
+	width: 100%;
+	line-height: 50px;
+	border-top: 1px solid black;
+	text-align: center;
+	background-color: white;
+}
+/*▲header▲*/
+/*▼mainvisual▼*/
+.mv{
+	padding-top: 70px;
+	height: 60vh;	
+}
+/*▲mainvisual▲*/
+/*▼HOUSING INF▼*/
+.home-housing-title{
+	margin-top: 50px;
+	margin-bottom: 0px;	
 }
 
-.two{
-	background-image: url(../img/pic3.jpg);
-	height: 300px;
-	width: 80%;
-	background-size: cover;
-	margin: 50px 20px 20px 20px;
+.card-group{
+	width: 90%;
+	margin-top: 30px;
 }
 
-
-.p2{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 14px;	
+.card-img{
+	width: 100%;
+	height: 200px;
 }
 
-
-ul{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 12px;
-	line-height: 25px;	
+.card{
+	float: none;
+	width: 100%;	
 }
 
-
-li{
-	list-style: none;
-
+.card-text{
+	height: 100px;
 }
 
-
-
-
-
-.bigbox3{
-	height: 800px;
-	width: 50%;
-	float: left;
-	text-align: left;
-	padding-left: 20px;
+.card2{
+	float: none;
+	width: 100%;
+	display: none;	
 }
 
-.three{
-	background-image: url(../img/pic4.jpg);
-	height: 300px;
-	width: 80%;
-	background-size: cover;
-	margin: 20px;
+.for-sale{
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 	0.8rem;
 }
 
-
-.p3{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 14px;	
+.comming-soon{
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	left: 80px;
+	font-size:  0.8rem;
+}
+/*▲HOUSING INF▲*/
+/*▼jurnal▼*/
+.jurnal{
+	width: 100%;
+	height: 200px;
 }
 
-
-ul{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 12px;
-	line-height: 25px;	
+.jl-title{
+	padding-top: 20px;
 }
 
-
-li{
-	list-style: none;
-
+.jl1{
+	width: 	50%;
 }
 
-
-.bigbox4{
-	height: 800px;
-	width: 50%;
-	float: left;
-	text-align: left;
-	padding-left: 20px;
+.jl2{
+	float: none;
+	display: none;
 }
 
-.four{
-	background-image: url(../img/pic5.jpg);
-	height: 300px;
-	width: 80%;
-	background-size: cover;
-	margin: 50px 20px 20px 20px;
+.jl3{
+	float: none;
+	display: none;
+}
+/*▲jurnal▲*/
+/*▼footer▼*/
+.footer-group{
+	margin-top: 200px;
 }
 
-
-.p4{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 14px;	
+.footer{
+	width: 	90%;
 }
 
-
-ul{
-	height: 50px;
-	width: 60%;
-	padding-left: 40px;
-	font-size: 12px;
-	line-height: 25px;	
+.ft-h2{
+	padding-left: 0;
+	padding-bottom: 10px;
 }
 
-
-li{
-	list-style: none;
-
+.ft-text{
+	text-align: center;
 }
 
-*/
-
-/*.footer{
-	background-color: black;
-	color: white;
+.ft-text2{
+	display: none;
 }
 
-.footer-list{
-	float: right;
-
+.ft-text3{
+	display: none;
 }
-*/
+
+.fa-facebook-square{
+	display: none;	
+}
+
+.fa-twitter-square{
+	display: none;
+}
+/*▲footer▲*/
