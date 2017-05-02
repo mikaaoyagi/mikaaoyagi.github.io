@@ -12,7 +12,7 @@ $("#theTarget").skippr({
     // easingの種類
     easing : 'easeOutQuart',
     // ナビゲーションの形("block" or "bubble")
-    navType : 'block',
+    navType : 'bubble',
     // 子要素の種類("div" or "img")
     childrenElementType : 'div',
     // ナビゲーション矢印の表示(trueで表示)
@@ -31,3 +31,9 @@ $("#theTarget").skippr({
 $(".menu-box").click(function(){
     $(".nav-list").slideToggle();
 });
+
+
+$(".card-img").hover(function(){
+    $(this).children(".production-title").stop().fadeToggle();
+});
+

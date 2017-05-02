@@ -38,7 +38,7 @@ header{
 	width: 100%;
 	height: 100px;
 	background-color: white; 
-	z-index: 1;
+	z-index: 10000;
 }
 
 
@@ -52,29 +52,6 @@ h1{
 
 }
 
-.nav{
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-
-.nav-list{
-	/*color: black;*/
-}
-
-.nav-list a:hover{
-	background-color: gray;
-	/*color: black;*/
-
-	/*color: black;*/
-
-}
-
-
-/*.nav-list:hover{
-	background-color: gray;
-
-}*/
 
 
 /*=========================================
@@ -93,7 +70,6 @@ mainvisual
 
 
 
-
 /*=============================================
 ハンバーガーメニュー
 ============================================*/
@@ -106,7 +82,7 @@ mainvisual
 	margin-right: 5%;
 	border: 1px solid white;
 	background-color: black;
-	margin-top: 15px;
+	margin-top: 5px;
 	/*margin-bottom: 10px;*/
 
 }
@@ -116,12 +92,12 @@ mainvisual
 	display: block;
 	width: 25px;
 	height: 2px;
-	margin: 7px auto;
+	margin: 5px auto;
 	background-color: white;
 }
 
 
-.list-bar: first-child{
+.list-bar:first-child{
 	margin-top: 10px;
 }
 
@@ -146,8 +122,43 @@ mainvisual
 
 .nav-list a{
 	color: #000;
+}
+
+.nav-list a:hover{
+	background-color: gray;
 
 }
+
+/*.nav{
+	margin-top: 0;
+	margin-bottom: 0;
+}*/
+
+
+/*.nav-list{
+	color: black;*/
+/*}*/
+
+
+	/*color: black;*/
+
+	/*color: black;*/
+
+
+
+
+/*.nav-list:hover{
+	background-color: gray;
+
+}*/
+
+
+
+
+
+
+
+
 
 /*======================================
 HOUSING INF
@@ -417,7 +428,32 @@ h6{
 	line-height: 20px;
 }
 
-
+#pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+ 
+#pageTop a {
+  display: block;
+  z-index: 999;
+  /*padding: 8px 0 0 8px;*/
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
 
 /*==========================================
 footer
@@ -464,7 +500,7 @@ footer
 	height: 250px;
 	color: white;
 	line-height: 30px;
-	text-align: center	;
+	text-align: center;
 }
 
 
@@ -479,11 +515,12 @@ h4{
 	font-size: 	1.8rem;
 }
 */
-.Facebook{
-	color: white;
-	width: 	5px;
-	height: 5px;
+
+.fa-twitter-square{
+	padding-right: 10px;
 }
+
+
 
 
 
@@ -503,7 +540,7 @@ setting
 
 .container{
 	width: 90%;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 }
 
 
@@ -517,18 +554,31 @@ setting
 header
 =======================*/
 
-header{
+.hd{
+
 	height: 70px;
+	/*width: 90%;*/
+}
+
+
+header{
+	height: 50px;
 }
 
 h1{
 	line-height: 70px;
+	/*float: none;*/
 }
+
 
 
 .menu-box{
 	display: block;
+	margin: 5%;
+
 }
+
+
 
 
 
@@ -540,7 +590,7 @@ h1{
 
 .nav-list{
 	display: none;
-	float: none;
+	/*float: none;*/
 	width: 100%;
 	line-height: 50px;
 	border-top: 1px solid black;
@@ -549,6 +599,9 @@ h1{
 }
 
 
+/*.nav-list a{
+	text-align: center;
+}*/
 /*==================================
 mainvisual
 ==================================*/
@@ -651,7 +704,7 @@ mainvisual
 }
 
 .footer{
-	width: 	100%;
+	width: 	90%;
 
 }
 
@@ -665,7 +718,7 @@ mainvisual
 
 .ft-text{
 	text-align: center;
-	width: 	100%;
+	/*width: 	100%;*/
 	/*height: 200px*/
 
 }
@@ -675,6 +728,13 @@ mainvisual
 	display: none;
 }
 
+.fa-facebook-square{
+	display: none;	
+}
+
+.fa-twitter-square{
+	display: none;
+}
 
 
 /*h3{
